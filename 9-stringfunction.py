@@ -23,3 +23,4 @@ print(str1.count("n")) # 2 (returns the number of occurences of the given charac
 print(str1.replace("python", "java")) # I am studying java (replaces the given string with another string)
 print(str1.split()) # ['I', 'am', 'studying', 'python'] (splits the string into a list of words)
 print(str1.split("a")) # ['I ', 'm studying python'] (splits the string at the given character)
+print(str1.count("a")) # 2 (returns the number of occurences of the given character)

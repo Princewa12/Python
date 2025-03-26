@@ -1,0 +1,25 @@
+str = "I'm a coder"
+
+print(str.upper()) # I'M A CODER (converts all characters to uppercase)
+print(str.lower()) # i'm a coder (converts all characters to lowercase)
+print(str.capitalize()) # I'm a coder (converts first character to uppercase)
+print(str.title()) # I'M A CODER (converts first character of each word to uppercase)
+print(str.swapcase()) # i'M A CODER (converts uppercase to lowercase and vice versa)
+print(str.isupper()) # False (checks if all characters are in uppercase)
+print(str.islower()) # False (checks if all characters are in lowercase)
+print(str.istitle()) # False (checks if first character of each word is in uppercase)
+print(str.isalpha()) # False (checks if all characters are alphabets)
+print(str.isdigit()) # False (checks if all characters are digits)
+print(str.isalnum()) # False (checks if all characters are alphabets or digits) 
+print(str.isspace()) # False (checks if all characters are whitespaces)
+print(str.isprintable()) # True (checks if all characters are printable)
+
+str1 = "I am studying python"
+print(str1.startswith("I")) # True (checks if the string starts with the given character)
+print(str1.endswith("n")) # True (checks if the string ends with the given character)
+print(str1.find("python")) # 14 (returns the index of the first occurence of the given string)
+print(str1.rfind("python")) # 14 (returns the index of the last occurence of the given string)
+print(str1.count("n")) # 2 (returns the number of occurences of the given character)
+print(str1.replace("python", "java")) # I am studying java (replaces the given string with another string)
+print(str1.split()) # ['I', 'am', 'studying', 'python'] (splits the string into a list of words)
+print(str1.split("a")) # ['I ', 'm studying python'] (splits the string at the given character)
